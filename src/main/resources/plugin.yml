@@ -1,0 +1,7 @@
+name: ShulkerBoxPlus
+version: '${version}'
+main: jp.iceserver.shulkerboxplus.ShulkerBoxPlus
+api-version: 1.18
+authors: [ Minidon ]
+description: シュルカーボックスを手に持って右クリックすると開けるようになるプラグイン
+website: https://github.com/IceServerLab/ShulkerBoxPlus
