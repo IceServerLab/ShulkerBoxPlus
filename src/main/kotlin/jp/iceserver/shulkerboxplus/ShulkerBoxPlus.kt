@@ -1,8 +1,6 @@
 package jp.iceserver.shulkerboxplus
 
-import org.bukkit.plugin.java.JavaPlugin
-
-class ShulkerBoxPlus : JavaPlugin()
+class ShulkerBoxPlus : AbstractShulkerBoxPlus()
 {
     companion object
     {
