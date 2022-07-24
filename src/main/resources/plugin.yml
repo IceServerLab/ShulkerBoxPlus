@@ -1,5 +1,5 @@
 name: ShulkerBoxPlus
-version: '${version}'
+version: 1.0.0
 main: jp.iceserver.shulkerboxplus.ShulkerBoxPlus
 api-version: 1.18
 authors: [ Minidon ]
