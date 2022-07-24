@@ -1,5 +1,7 @@
 package jp.iceserver.shulkerboxplus
 
+import jp.iceserver.shulkerboxplus.listeners.*
+
 class ShulkerBoxPlus : AbstractShulkerBoxPlus()
 {
     companion object
@@ -10,5 +12,9 @@ class ShulkerBoxPlus : AbstractShulkerBoxPlus()
     override fun onEnable()
     {
         plugin = this
+
+        registerListeners(
+            InventoryClick(), InventoryClose(), PlayerInteract()
+        )
     }
 }
